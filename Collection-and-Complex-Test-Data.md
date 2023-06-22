@@ -2,7 +2,7 @@
 
 ## Collection Structure
 
-![postman.png](/.attachments/postman-c313a3ab-fbbd-46f3-b426-b82cfebe5d56.png)
+![postman collection](./images/postman.png)
 
 ## Run newman
 
@@ -83,18 +83,14 @@ newman run ComplexStructure.postman_collection2.json -d newuser.json
 
 1. Inline data with data file
 
-   - Body
-     ![inline-data.png](/.attachments/inline-data-c5a53b41-41c9-4ed5-850e-b4642e5104af.png)
+   ![inline data](./images/inline-data.png)
 
 2. Inline data object
 
-   - Pre-request Script
-     ![pre-request-data.png](/.attachments/pre-request-data-1ab30b95-01bc-492f-b214-339f84c9c7e4.png)
+   ![pre request data](./images/pre-request-data.png)
 
-   - Body
-     ![inline-with-object.png](/.attachments/inline-with-object-ec372beb-2457-4d47-940e-f591ba871799.png)
+   ![inline data object](./images/inline-with-object.png)
 
 3. Use data file in Test
 
-   - Test
-     ![test-with-data-file.png](/.attachments/test-with-data-file-5696bf81-c474-41c9-b234-182389d9024d.png)
+   ![test with data file](./images/test-with-data-file.png)
